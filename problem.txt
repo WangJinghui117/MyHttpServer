@@ -1,2 +1,11 @@
 src/router/Router.cpp
 53行   callback(req, resp) 和 callback(newReq, resp)
+
+/home/wjh/HttpServer/src/utils/db/DbConnection.cpp
+cleanup()   while (result && result->next()) 
+
+/**************** 还未修改 ****************
+/home/wjh/HttpServer/src/utils/db/DbConnectionPool.cpp
+getConnection()         shared_ptr被conn和原本的DbConnection管理，双重删除，内存泄漏
+                        改用了move转移所有权
+/*****************************************

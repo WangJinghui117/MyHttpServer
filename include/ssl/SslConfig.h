@@ -38,7 +38,7 @@ public:
     bool getVerifyClient() const { return verifyClient_; }
     int getVerifyDepth() const { return verifyDepth_; }
     int getSessionTimeout() const { return sessionTimeout_; }
-    long getSessionCacheSizes() const { return sessionCacheSize_; }
+    long getSessionCacheSize() const { return sessionCacheSize_; }
 
 private:
     string            certFile_;   // 证书文件
