@@ -91,7 +91,7 @@ private:
     enum GameType{
         NO_GAME = 0,
         MAN_VS_AI = 1,
-        MAN_VS_MAX = 2
+        MAN_VS_MAN = 2
     };
 
     http::HttpServer                        httpServer_;
